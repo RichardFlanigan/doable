@@ -8,6 +8,8 @@ Steps to create it as is:
 * rails generate scaffold Todo name:string sequence:integer
 * rails db:migrate
 * drop in the menu nav html from https://codepen.io/richardjflanigan/pen/xbwYqBb into views/layouts/application.html.erb between <header></header> tags.
+* rails s
+* http://localhost:3000/todos
 
 menu should look like the one in https://codepen.io/richardjflanigan/pen/xbwYqBb.  
 

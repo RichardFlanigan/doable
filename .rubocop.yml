@@ -22,5 +22,4 @@ Style/StringLiterals:
 
 Layout/EmptyLinesAroundBlockBody:
   Exclude:
-    - '**/*'
-
+    - 'spec/**/*'

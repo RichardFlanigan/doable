@@ -47,7 +47,7 @@ gem "thruster", require: false
 
 group :development, :test do
   # rspec
-  gem 'rspec-rails'
+  gem "rspec-rails"
 
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
@@ -56,7 +56,8 @@ group :development, :test do
   gem "brakeman", require: false
 
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
-  gem "rubocop-rails-omakase", require: false
+  # gem "rubocop-rails-omakase", require: false
+  gem "rubocop-rails-omakase"
 end
 
 group :development do

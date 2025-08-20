@@ -12,8 +12,8 @@
   <% end %>
 
   <div class="my-5">
-    <%= form.label :name %>
-    <%= form.text_field :name, class: ["block shadow-sm rounded-md border px-3 py-2 mt-2 w-full", {"border-gray-400 focus:outline-blue-600": todo.errors[:name].none?, "border-red-400 focus:outline-red-600": todo.errors[:name].any?}] %>
+    <%= form.label :desc %>
+    <%= form.text_field :desc, class: ["block shadow-sm rounded-md border px-3 py-2 mt-2 w-full", {"border-gray-400 focus:outline-blue-600": todo.errors[:desc].none?, "border-red-400 focus:outline-red-600": todo.errors[:desc].any?}] %>
   </div>
 
   <div class="my-5">

@@ -19,16 +19,11 @@ Steps to create it as is:
 * rails generate simple_form install
 * rails generate simple_form:tailwind:install
 * rails generate rspec:install
-* 
 * rails generate scaffold Todo desc:string sequence:integer
 * rails db:migrate
 * drop in the menu nav html from https://codepen.io/richardjflanigan/pen/xbwYqBb into views/layouts/application.html.erb between <header></header> tags.
 * rails s
 * http://localhost:3000/todos
-
-menu should look like the one in https://codepen.io/richardjflanigan/pen/xbwYqBb.  
-
-What am I missing?  How would I debug the issue?
 
 Things you may want to cover:
 
